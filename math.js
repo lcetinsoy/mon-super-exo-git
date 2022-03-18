@@ -12,3 +12,12 @@ function sum(values){
 
 
 
+function test_sum(){
+
+
+    let values = [1, 2, 3]
+
+    if (sum(values) != 6){
+        console.log("ERREUR")
+    }
+}
